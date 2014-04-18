@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    ${2:<meta name="description" content="${1}" />}
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0" />
+    <title>${3}</title>
+    ${4:<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />}
+    ${6:<link rel="stylesheet" href="${5:css/main.css}" />}
+    ${8:<script src="${7:http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js}" ></script>}
+    ${9:<script scr="js/main.js"></script>}
+</head>
+<body>
+    ${0}
+</body>
+</html>
+]]></content>
+    <tabTrigger>myhtml</tabTrigger>
+    <scope>text.html</scope>
+    <description>my full html</description>
+</snippet>
