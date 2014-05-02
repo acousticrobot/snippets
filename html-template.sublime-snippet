@@ -10,7 +10,7 @@
     ${4:<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />}
     ${6:<link rel="stylesheet" href="${5:css/main.css}" />}
     ${8:<script src="${7:http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js}" ></script>}
-    ${9:<script scr="js/main.js"></script>}
+    ${9:<script src="js/main.js"></script>}
 </head>
 <body>
     ${0}
